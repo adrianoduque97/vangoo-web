@@ -4,6 +4,10 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Vangoo brand new react web
+# Running
+- Clone the repo
+- run yarn
+- run yarn start
 
 # Thanks to
   - React
