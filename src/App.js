@@ -1,14 +1,15 @@
-import './App.css';
+import "./App.css";
+import Navbar from "./Components/Navbar";
+import TextLogo from "./Components/TextLogo";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src='./vangoo1.jpg' className="App-logo" alt="logo" />
-        <p>
-          LOADING...
-        </p>
-      </header>
+      <Router>
+        <Navbar />
+        <TextLogo />
+      </Router>
     </div>
   );
 }

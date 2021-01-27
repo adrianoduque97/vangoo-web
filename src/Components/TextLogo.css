@@ -1,0 +1,10 @@
+.textlogo {
+  font-family: "DIN";
+  font-size: 125px;
+  color: white;
+  text-align: center;
+  padding-top: 180px;
+  padding-bottom: 380px;
+  align-items: center;
+  align-self: auto;
+}

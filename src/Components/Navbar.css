@@ -1,0 +1,65 @@
+.NavbarItems {
+  background: transparent;
+  font-family: "Work Sans", sans-serif;
+
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.navbar-logo {
+  font-family: "DIN";
+  color: #fff;
+  justify-content: start;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.fa-react {
+  margin-left: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: end;
+  margin-right: 2rem;
+}
+
+.nav-links {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+.nav-links:hover {
+  background-color: #6d76f7;
+  border-radius: 4px;
+  transition: all 0.5s ease-out;
+}
+
+.fa-bars {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.nav-links-mobile {
+  display: none;
+}
+
+.fa-times {
+  color: #fff;
+  font-size: 2rem;
+}
+
+/* Es para hacer un menu cuando se haga responsive */
+.menu-icon {
+  display: none;
+}
